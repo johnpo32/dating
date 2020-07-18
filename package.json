@@ -1,0 +1,26 @@
+{
+  "name": "dating",
+  "version": "1.0.0",
+  "description": "aplicacion de citas online",
+  "author": "john chaux",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/firebase": "^6.0.1",
+    "firebase": "^7.15.1",
+    "nuxt": "^2.0.0",
+    "nuxt-vuex-localstorage": "^1.2.6",
+    "vue-scrollto": "^2.18.1",
+    "vue-virtual-scroller": "^1.0.10"
+  },
+  "devDependencies": {
+    "@nuxtjs/moment": "^1.6.1",
+    "@nuxtjs/vuetify": "^1.11.2",
+    "material-design-icons-iconfont": "^5.0.1"
+  }
+}
